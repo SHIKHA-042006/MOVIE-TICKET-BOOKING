@@ -1,0 +1,154 @@
+.hero {
+  height: 93vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   margin-top: 53px;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.hero-content{
+  color:#ddd
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: rgb(103, 75, 75);
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.scroll-section {
+  padding: 30px;
+}
+
+.scroll-section h2 {
+  margin-bottom: 15px;
+}
+
+.scroll-container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-left: 20px;
+}
+
+.scroll-item {
+  min-width: 200px;
+  text-align: center;
+}
+
+.scroll-item img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.upcoming-events {
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.upcoming-events h2 {
+  margin-bottom: 10px;
+}
+
+.upcoming-events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.upcoming-events li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.testimonial-section {
+  background: #ffe6e6;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-section marquee {
+  font-style: italic;
+  font-weight: bold;
+}
+.clickable {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.clickable:hover {
+  transform: scale(1.05);
+}
+/* Sports Mania Section */
+.sports-mania {
+  margin: 110px 0;
+}
+.sports-mania h2{
+  margin-left: 60px;
+  text-decoration: solid;
+}
+
+.sports-cards {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}
+
+
+.sports-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.sports-card:hover {
+  transform: translateY(-5px);
+}
+
+.sports-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.sports-info {
+  padding: 12px;
+}
+
+.sports-date {
+  font-size: 13px;
+  color: gray;
+}
+
+.sports-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.sports-venue {
+  font-size: 14px;
+  color: #444;
+}
+
+.sports-price {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}

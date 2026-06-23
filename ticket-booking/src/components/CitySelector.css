@@ -1,0 +1,72 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-modal {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  color: #ff4e50;
+}
+
+.subtitle {
+  color: #ff4e50;
+  margin-bottom: 10px;
+}
+
+.city-search {
+  width: 80%;
+  padding: 8px;
+  margin: 10px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+}
+
+.city-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.city-option {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-emoji {
+  font-size: 2rem;
+}
+
+.city-option:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease;
+}
+.detect-location-btn {
+  background: #ff4e50;
+  color: white;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.detect-location-btn:hover {
+  background: #e63c3f;
+}
+.detect-location-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}

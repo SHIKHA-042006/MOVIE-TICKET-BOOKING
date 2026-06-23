@@ -1,0 +1,82 @@
+.sportbooking-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  background: #111;
+  color: #fff;
+  border-radius: 1px;
+  max-width: 1500px;
+  margin: 2rem auto;
+  margin-top: 53px;
+  background: cover;
+  height:90vh;
+  
+}
+
+.sport-section {
+  flex: 1;
+  text-align: center;
+}
+
+.sport-poster {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+.sportin-cinema {
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+
+.sportdetails-section {
+  flex: 2;
+}
+
+.sport-title {
+  font-size: 4rem;
+
+  margin-bottom: 4.5rem;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.sport-rating {
+  
+  font-size: 1.2rem;
+  
+  margin-bottom: 2rem;
+  color: #a69b9b;
+}
+
+
+.sporttags span {
+  background: #605f5f;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.sportinfo {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #ccc;
+  
+}
+
+.sportbook-btn {
+  background: #e71d36;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: #ff2e63;
+}

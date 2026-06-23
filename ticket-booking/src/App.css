@@ -1,0 +1,64 @@
+/* .app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.movie-card {
+  margin-bottom: 10px;
+}
+
+.book-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.screen {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.seat-row {
+  margin-bottom: 5px;
+}
+
+.seat {
+  margin: 3px;
+  padding: 8px;
+  background: lightgray;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background: lightgreen;
+}
+
+.confirm-btn {
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */
+/* default (light mode) */
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* dark mode */
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Make sure children inherit */
+.app.light a, .app.light p, .app.light h1, .app.light h2 {
+  color: #615959;
+  
+}
+
+.app.dark a, .app.dark p, .app.dark h1, .app.dark h2 {
+  color: #565252;
+}

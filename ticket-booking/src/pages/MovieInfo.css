@@ -1,0 +1,71 @@
+/* MovieInfo.css */
+
+.info-container {
+    margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  background-color: #111;
+  color: #fff;
+  padding: 40px;
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+.info-img {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.info-details {
+  max-width: 600px;
+}
+
+.info-details h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.info-details p {
+  font-size: 1rem;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.back-btn {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  color: #ff4444;
+}
+
+.book-btn {
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #f6121d;
+  transform: scale(1.05);
+}
+
